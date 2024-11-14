@@ -1,12 +1,11 @@
 import './App.css';
-import MainPage from './pages/mainPage/MainPage';
-import Todo from './pages/todoPage/Todo';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TasksPage from './pages/tasksPage/TasksPage';
 
 function App() {
   return (
-    <div className="App">
-      {/* <MainPage /> */}
-      <Todo />
+    <div className='App'>
+      <TasksPage />
     </div>
   );
 }
